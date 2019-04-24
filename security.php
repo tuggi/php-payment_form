@@ -10,7 +10,7 @@ function sign ($params) {
 }
 
 function signData($data, $secretKey) {
-    // echo $data . "-------"; 
+    echo $data . "-------"; 
     // echo $secretKey . "-------"; 
     // echo base64_encode(hash_hmac('sha256', $data, $secretKey, true));
     return base64_encode(hash_hmac('sha256', $data, $secretKey, true));

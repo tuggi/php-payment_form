@@ -31,9 +31,4 @@
     <script type="text/javascript" src="payment_form.js"></script>
 </form>
 </body>
-
-<script>
-
-</script>
-
 </html>
